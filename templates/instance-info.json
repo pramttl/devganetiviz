@@ -1,0 +1,17 @@
+{
+    "network_port": 11000,
+    "status": "running",
+    "os": "image+cirros",
+    "beparams": {
+        "auto_balance": true,
+        "spindle_use": 1,
+        "vcpus": 1,
+        "memory": 128,
+        "minmem": 128,
+        "always_failover": false,
+        "maxmem": 128
+    },
+    "nic.bridges": [
+        "br0"
+    ]
+}
