@@ -51,12 +51,10 @@ def create_vms_list(vmdict):
         i+=1
         vm_obj = {}
         vm_obj["status"] = weighted_pick(vm_status_possibilities)
-        vm_obj["ram"] = 128
         vm_obj["hostname"] =  instance
         vm_obj["secondary_node__hostname"] = snode
         vm_obj["operating_system"] = "image+cirros"
         vm_obj["owner"] = 'Pranjal'
-        vm_obj["minram"] = -1
         vm_obj["primary_node__hostname"] = pnode
         vms_list.append(vm_obj)  
     return vms_list

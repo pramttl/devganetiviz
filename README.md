@@ -46,7 +46,7 @@ But this server is not sufficient to provide the kind of functionality a django 
 * Lets get in django devserver to work for us?
 * How?
 * Lets convert ganetiviz-cytoscape into a django project.
-* The result = devganetiviz = THIS REPOSITORY :)
+* The result: ganetiviz-cytoscape + Django = devganetiviz (THIS REPOSITORY) :)
 
 ##### More advantages
 
